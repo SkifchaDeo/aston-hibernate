@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 public class PositionDAO {
 
-    private SessionFactory sessionFactory;
+    private final SessionFactory sessionFactory;
 
     @Autowired
     public PositionDAO(SessionFactory sessionFactory) {

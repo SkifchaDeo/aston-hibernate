@@ -11,7 +11,7 @@ import java.util.List;
 
 @Component
 public class CustomerDAO {
-    private SessionFactory sessionFactory;
+    private final SessionFactory sessionFactory;
 
     @Autowired
     public CustomerDAO(SessionFactory sessionFactory) {

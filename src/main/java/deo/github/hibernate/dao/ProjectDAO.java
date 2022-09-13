@@ -17,7 +17,7 @@ import java.util.List;
 @Component
 public class ProjectDAO {
 
-    private SessionFactory sessionFactory;
+    private final SessionFactory sessionFactory;
 
     @Autowired
     public ProjectDAO(SessionFactory sessionFactory) {
