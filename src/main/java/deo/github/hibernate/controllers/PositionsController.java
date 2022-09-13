@@ -25,7 +25,7 @@ public class PositionsController {
         this.positionService = positionService;
     }
 
-    @GetMapping()
+    @GetMapping
     public String index(Model model) {
         model.addAttribute("positions", positionService.findAllPositions());
         return "positions/index";
