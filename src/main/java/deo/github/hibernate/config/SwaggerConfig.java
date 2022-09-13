@@ -16,9 +16,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Hibernate")
-                .description("Testing swagger")
-                .version("1?")
+                .title("Testing Swagger")
+                .description("testing description")
+                .version("1")
                 .termsOfServiceUrl("http://terms-of-services.url")
                 .license("LICENSE")
                 .licenseUrl("http://url-to-license.com")
